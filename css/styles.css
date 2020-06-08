@@ -1,0 +1,281 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Gill Sans", sans-serif;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+em{
+  color: #ef9f17;
+}
+
+.mid-horizontal {
+  border-top: solid;
+  width: 4%;
+}
+/* Title Section */
+
+#header_section {
+  background-color: black;
+}
+
+.container-fluid{
+  padding: 5% 10%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title-heading {
+  margin-top: 20%;
+}
+
+.big-heading2 {
+  font-size: 6rem;
+  margin-top: auto;
+}
+
+.title-img {
+  height: auto;
+  width: 60%;
+  margin-left: 30%;
+}
+
+/* Instructors Section */
+.instructor-img {
+  width: 20%;
+}
+
+#instructors {
+  padding: 4rem 0 4rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.instructor-heading {
+  text-align: left;
+}
+
+.instructor-img {
+  height: auto;
+  width: 30%;
+  padding-bottom: 2%;
+}
+
+.instructors-intro {
+  text-align: left;
+}
+
+/* Services Section */
+#services, #equipments {
+  text-align: center;
+}
+
+#services h2, #equipments h2{
+  margin: 4rem 0 6rem;
+}
+
+#services h5, #equipments h5{
+  padding: 2.5rem;
+}
+
+/* image hover */
+
+.img-hover .gym-img:hover {
+  opacity: 0.6;
+  transition: .2s ease-in-out;
+}
+
+/* about section */
+
+#about {
+  padding-top: 5%;
+}
+
+.horizontal-line {
+  border-top: solid;
+  position: relative;
+  margin: 8% 0 10%;
+  width: 8%;
+}
+
+.big-heading {
+  padding-top: 5%;
+  color: #ef9f17;
+}
+/* Equipments section */
+
+.equipment-col {
+  margin: 5% 0 10%;
+}
+
+/* carousel section */
+#carousel-section {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+}
+
+.carousel-heading {
+  padding: 5rem 0 1rem;
+}
+
+.carousel-image {
+  width: 8%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-text {
+  font-size: 1.3rem;
+  line-height: 2;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+/* contact section */
+#contact-section {
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+.contact-heading {
+  padding: 80px 0 0;
+  color: #fff;
+}
+
+.c-container {
+	max-width:450px;
+	width:100%;
+	margin:0 auto;
+  padding-bottom: 60px;
+	position:relative;
+}
+
+.contact {
+  background: #grey;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  width: 100%;
+}
+
+.contact input[type="text"], .contact input[type="tel"], .contact input[type="email"], .contact textarea {
+  width: 100%;
+  border: 1.5px solid #ccc;
+  background: grey;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+.contact input[type="text"]:hover, .contact input[type="tel"]:hover, .contact input[type="email"]:hover, .contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #888;
+}
+
+.contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact button {
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: #0CF;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact button[type="submit"]:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  background: #09C;
+}
+
+.contact input:focus, .contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* footer section */
+
+#footer-section {
+  padding-top: 400px;
+}
+
+.footer-text {
+  display: inline-block;
+  padding: 20px 10px 20px;
+  position: relative;
+  left: 55%;
+  color: grey;
+}
+
+.footer-text:hover {
+  color: black;
+}
+
+.footer-icon:hover {
+  transition: transform .2s;
+  transform: scale(1.5);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: grey;
+}
+
+.footer-icon {
+  font-size: 25px;
+  padding: 0 30px 0;
+  position: relative;
+  left: 50%;
+}
+
+@media (max-width:991px) {
+  .instructors-intro, .instructor-heading {
+    text-align: center;
+    margin: 5%;
+  }
+}
